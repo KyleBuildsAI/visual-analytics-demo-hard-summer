@@ -1,5 +1,5 @@
 import GenreChart from "@/components/GenreChart";
-import Link from "next/link";
+import TrendChart from "@/components/TrendChart";
 
 export default function Home() {
   return (
@@ -16,15 +16,10 @@ export default function Home() {
           by genre. Click a pie slice or genre row to see which artists represent
           each style.
         </p>
-        <Link
-          href="/trends"
-          className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 rounded-full bg-zinc-800 text-zinc-300 hover:bg-zinc-700 hover:text-white text-sm font-medium transition-all"
-        >
-          View Genre Trend Lines &rarr;
-        </Link>
       </header>
       <main className="px-4 pb-16">
         <GenreChart />
+        <TrendChart />
       </main>
       <footer className="text-center pb-8 text-xs text-zinc-700">
         Built by{" "}
