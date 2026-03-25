@@ -18,15 +18,15 @@ export default function Home() {
           </a>
         </p>
         <h1 className="text-4xl md:text-5xl font-black tracking-tight bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">
-          HARD Summer Genre Analytics
+          HARD Summer
         </h1>
         <p className="text-lg text-zinc-400 mt-2">
-          11 Years of Lineup Data &mdash; 2015 to 2026
+          Genre Evolution 2015 &ndash; 2026
         </p>
         <p className="text-sm text-zinc-600 mt-1 max-w-xl mx-auto">
-          800+ artist appearances researched, categorized, and visualized.
-          Explore how the festival&apos;s sound has shifted year over year.
-          Click a pie slice or genre row to dig into the data.
+          How has the music changed? Explore 11 years of lineup data broken down
+          by genre. Click a pie slice or genre row to see which artists represent
+          each style.
         </p>
       </header>
 
