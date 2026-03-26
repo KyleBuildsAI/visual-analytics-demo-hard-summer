@@ -63,3 +63,5 @@ This project shows what I think good prompting looks like: knowing the right que
 ## Author
 
 Built by [Kyle Coleman](https://kylecoleman.ai)
+
+> **Side note:** This project was created 2 weeks before Claude Dream was announced.
